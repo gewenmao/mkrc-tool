@@ -1,6 +1,6 @@
 {
-  "name": "mkrc",
-  "version": "1.0.0",
+  "name": "mkrc-tool",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.1.2",
@@ -17,5 +16,13 @@
     "inquirer": "^3.2.3",
     "lodash": "^4.17.4",
     "shelljs-nodecli": "^0.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gewenmao/mkrc-tool.git"
+  },
+  "author": [
+    "gewenmao"
+  ],
+  "license": "MIT"
 }
