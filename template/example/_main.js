@@ -24,20 +24,3 @@ if (module.hot) {
     render(NewApp);
   });
 }
-
-/* function render(App) {
-  ReactDOM.render(<App />, div)
-}
-
- if (module.hot) {
-    module.hot.accept('./component', function() {
-      const NewApp = require('./component').default
-      render(NewApp)
-    })
- }
- */
-/*
-if (module.hot) {
-  module.hot.accept('./component', () => { console.log(1111111); render(App) })
-}
-*/
