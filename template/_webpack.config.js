@@ -20,7 +20,7 @@ module.exports = {
       loader: 'babel-loader',
       exclude: /node_modules/,
       query: {
-        presets: [['es2015', { modules: false }], 'stage-0', 'react'],
+        presets: [['env', { modules: false }], 'stage-0', 'react'],
         plugins: ['transform-decorators-legacy', 'react-hot-loader/babel'],
       },
     }, {

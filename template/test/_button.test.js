@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow, render } from 'enzyme';
+import { shallow, render, mount } from 'enzyme';
 import Button from './../src/index';
 
 const setup = () => {
@@ -33,6 +33,11 @@ describe('+1 Component', () => {
 
   it('Count should render', () => {
     expect(wrapper.find('.plus-count').exists());
+  });
+
+  test('Component should render correctly', () => {
+    const mounted = mount(<Button count={ 1 } onClick={() => {}} />)
+    expect(mounted).toMatchSnapshot();
   });
 
   it('Count text should be 10s', () => {
