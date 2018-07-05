@@ -2,10 +2,10 @@
   "name": "<%= pkgName %>",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "files": [
     "assets",
-    "lib",
+    "dist",
     "public"
   ],
   "dependencies": {
@@ -14,6 +14,7 @@
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.0.0",
     "babel-jest": "^22.0.6",
     "babel-loader": "^7.1.2",
@@ -26,11 +27,11 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-15": "^1.0.5",
     "enzyme-to-json": "^3.3.1",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.1.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-react": "^7.10.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^2.30.1",
     "jest": "^22.0.6",
